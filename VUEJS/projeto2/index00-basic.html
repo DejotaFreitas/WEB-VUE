@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      * {
+          background-color: #333;
+          color: #fff;
+          font-size: 20px;
+          font-family: 'Roboto';
+          font-style: italic;
+        }
+    </style>
+    <title>VUE</title>
+    <!-- VUE VERSAO DE DESENVOLVIMENTO COM DEBUG -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- VUE VERSAO DE PRODUÇÂO -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  </head>
+  <body>
+
+    <div id="app">
+
+      <h1>{{ msg }}</h1>
+
+      <h2 v-text="msg"></h2>
+
+      <h2 v-once>{{variavelReferenciadoUmaUnicaVez}}</h2>
+
+      <h2 v-html="textohtml"></h2>
+
+      <h3>{{ msgReverser }}</h3>
+
+      <h2> <a v-bind:href="linkbind">Home</a> </h2>
+
+      <button type="submit" @click.prevent="hello">Click</button>
+
+      <h3 v-if="condicao">{{ msg }}</h3>
+      <h2 v-if="!condicao">{{ msg }}</h2>
+
+      <ul v-for="item in lista">
+        <li >{{ item.nome }}</li>
+        <li >{{ item.valor }}</li>
+      </ul>
+
+
+      <form v-model="usuario" action="" method="post">
+        <label for="nome">Nome:</label> <br>
+        <input type="text" name="nome" id="nome" v-model="usuario.nome"> <br><br>
+        <label for="emial">E-mail:</label> <br>
+        <input type="emial" name="emial" id="emial" v-model="usuario.email"> <br><br>
+        <label for="senha">Senha:</label> <br>
+        <input type="password" name="senha" id="senha" v-model="usuario.senha"> <br><br>
+        <button type="button" v-if="condicao" @click.prevent="cadastrar">Salvar</button>
+        <button type="button" v-if="!condicao" @click.prevent="cadastrar">Slavando...</button>
+      </form>
+
+    </div>
+
+    <script type="text/javascript">
+    var app = new Vue({ el: '#app',
+          data () {
+            return {
+              msg: 'Hello World Vue !!!',
+              linkbind: 'home',
+              variavelReferenciadoUmaUnicaVez: 'variavel referenciado Uma Unica Vez',
+              textohtml: '<a href="#">LINK HTML</a>',
+              condicao: true,
+              lista: [
+                {nome:'Laranja' , valor:8},
+                {nome:'Goiaba' , valor:2},
+                {nome:'Abacaxi' , valor:3},
+                {nome:'Melancia' , valor:7}
+              ],
+              usuario:{ nome: "dejota", email:'dejota@emial.com', senha: '0123'}
+            }
+          },
+          mounted () {
+            console.log('INVOKADA NO INICIO DA APLICAÇÃO!!!');
+          },
+          computed: {
+            msgReverser() {
+              return this.msg.split('').reverse().join('');
+            }
+          },
+          methods: {
+            hello () {
+              alert("Hello World!!!");
+            },
+            cadastrar() {
+              this.condicao = !this.condicao;
+            }
+          },
+          filters:{}
+      });
+    </script>
+
+  </body>
+</html>

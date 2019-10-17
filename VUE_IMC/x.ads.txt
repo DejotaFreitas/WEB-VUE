@@ -1,0 +1,48 @@
+
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+      <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5473855996049040"
+         data-ad-slot="3304607737"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+
+
+      <script>  (adsbygoogle = window.adsbygoogle || []).push({});  </script>
+
+
+//===============================================================================
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5473855996049040"
+     data-ad-slot="3726870445"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+//================================================================================
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- anuncio_automatico_3 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5473855996049040"
+     data-ad-slot="8675944792"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+     
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -1,0 +1,66 @@
+1. Mandarim (chinês) (885,0): Brunei, Camboja, China, Indonésia, Malásia, Mongólia, Filipinas, Singapura,
+África do Sul, Taiwan, Tailândia
+
+2. Espanhol (castelhano) (332,0): Andorra, Argentina, Belize, Bolívia, Chile, Colômbia, Costa Rica,
+Cuba, República Dominicana, Equador, El Salvador, Guiné Equatorial, Guatemala, Honduras, México, Nicarágua,
+Panamá, Paraguai, Peru, Espanha, Uruguai, Estados Unidos, Venezuela
+
+3. Inglês (189,0): Austrália, Botsuana, Brunei, Camarões, Canadá, Eritreia, Etiópia, Ilhas Fiji, Gâmbia,
+Guiana, Índia, Irlanda, Israel, Lesoto, Libéria, Malásia, Micronésia, Namíbia, Nauru, Nova Zelândia, Palau,
+Papua-Nova Guiné, Samoa, Seychelles, Serra Leoa, Singapura, Ilhas Salomão, Somália, África do Sul, Suriname,
+Suíça, Tonga, Reino Unido, Estados Unidos, Vanuatu, Zimbabué, e diversas ilhas do Caribe à (322,0)
+
+4. Bengali (189,0): Bangladesh, Índia, Singapura
+5. Hindi (182,0): Índia, Nepal, Singapura, África do Sul, Uganda
+6. Português (170,0): Angola, Brasil, Cabo Verde, França, Guiné-Bissau, Macau, Moçambique, Portugal, São Tomé e Príncipe
+7. Russo (170,0): China, Israel, Mongólia, Rússia, Estados Unidos
+8. Japonês (125,0): Japão, Singapura, Taiwan
+9. Alemão (98,0): Áustria, Bélgica, Bolívia, República Checa, Dinamarca, Alemanha, Hungria, Itália, Cazaquistão,
+Liechtenstein, Luxemburgo, Paraguai, Polónia, Roménia, Eslováquia, Suíça
+10. Chinês (77,2): China
+11. Javanês (75,5): Indonésia, Malásia, Singapura
+12. Coreano (75,0): China, Japão, Coreia do Norte, Coreia do Sul, Singapura, Tailândia
+
+13. Francês (72,0): Andorra, Argélia, Bélgica, Burkina Fasso, Burundi,Costa do Marfim, Camarões, Canadá, Congo,
+Zaire, Djibuti, França, Gabão, Guiné, Haiti, Luxemburgo, Mauritânia, Mónaco, Ruanda, Senegal, Seychelles, Suíça, Vanuatu
+
+14. Vietnamita (67,7): Vietname, China
+15. Telugo (66,4): Índia, Singapura
+16. Cantonês (chinês): Brunei, China, Costa Rica, Indonésia, Malásia, Panamá, Filipinas, Singapura, Tailândia, Vietname à (66,0)
+17. Marati: Índia à (64,8)
+18. Tamil: Índia, Malásia, Ilhas Maurício, Singapura, África do Sul, Sri Lanka à (63,1)
+19. Turco: Bulgária, Chipre, Grécia, Macedónia, Roménia, Turquia, Uzbequistão à (59,0)
+
+20. Urdu: Afeganistão, Índia, Ilhas Maurício, Paquistão, África do Sul, Tailândia à (58,0)
+21. Min nan (chinês): Brunei, China, Indonésia, Malásia, Filipinas, Singapura, Taiwan, Tailândia à (49,0)
+22. Jinyu (45,0) (chinês): China
+23. Gujarati (44,0): Índia, Quénia, Paquistão, Singapura, África do Sul, Tanzânia, Uganda, Zâmbia, Zimbábue
+24. Polaco: República Checa, Alemanha, Israel, Polónia, Roménia, Eslováquia à (44,0)
+25. Egípcio (42,5): Egipto
+26. Ucraniano (41,0): Polónia, Eslováquia, Ucrânia
+27. Italiano (37,0): Croácia, Eritreia, França, Itália, São Marino, Eslovénia, Suíça
+28. Xiang (chinês) (36,0): China
+29. Malaio (34,0): Índia, Singapura
+
+30. Hakka (chinês) (34,0): Brunei, China, Indonésia, Malásia, Panamá, Singapura, Suriname, Taiwan, Tailândia
+31. Kannada (33,7): Índia
+32. Oriya (31,0): Índia
+33. Panjabi (ocidental) (30,0): Índia, Paquistão
+34. Sunda (27,0): Indonésia
+35. Panjabi (oriental) (26,0): Índia, Quénia, Singapura
+36. Romeno (26,0): Hungria, Israel, Moldávia, Roménia, Sérvia e Montenegro, Ucrânia
+37. Bhojpuri (25,0): Índia, Ilhas Maurício, Nepal
+38. Azerbaijão (24,4): Afeganistão, Irão, Iraque, Síria, Turquia)
+39. Farsi (ocidental) (24,3): Irão, Iraque, Omã, Catar, Tajiquistão, Emirados Árabes Unidos
+
+40. Maitili (24,3): Índia, Nepal
+41. Hauçá (24,2): Benin, Burkina Fasso, Camarões, Gana, Nigéria, Níger, Sudão, Togo
+42. Argelino (22,4): Argélia
+43. Birmanês: Bangladesh, Mianmá
+44. Servo-croata (22,0): Bósnia-Herzegovina, Croácia, Macedónia, Sérvia e Montenegro, Eslovénia à (21,0)
+45. Gan (chinês) (20,6): China
+46. Awadhi (20,5): Índia, Nepal
+47. Tailandês (20,0): Singapura, Tailândia
+48. Holandês (20,0): Bélgica, França, Países Baixos, Suriname
+49. Iorubá (20,0): Benim, Nigéria
+50. Sindi (19,7): Afeganistão, Índia, Paquistão, Singapura

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      * {
+          background-color: #333;
+          color: #fff;
+          font-size: 20px;
+          font-family: 'Roboto';
+          font-style: italic;
+        }
+    </style>
+    <title>VUE</title>
+    <!-- VUE VERSAO DE DESENVOLVIMENTO COM DEBUG -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- VUE VERSAO DE PRODUÇÂO -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  </head>
+  <body>
+
+    <div id="app">
+
+      <form class="" action="#" method="post">
+        <!-- INPUT TEXT -->
+        <label for="inputext">TEXTO: {{inputext}}</label>
+        <br>
+        <input v-model='inputext' type="text" id="inputext">
+        <br><br>
+
+        <!-- INPUT TEXT LAZY -->
+        <label for="inputextlazy">TEXTO LAZY: {{inputextlazy}}</label>
+        <br>
+        <input v-model.lazy='inputextlazy' type="text" id="inputextlazy">
+        <br><br>
+
+        <!-- NPUT NUMBER -->
+        <label for="inputnumber">NUMBER: {{inputnumber}}</label>
+        <br>
+        <input type="number" v-model.number='inputnumber' id="inputnumber">
+        <br><br>
+
+        <!-- TEXT AREA -->
+        <label for="textareatext">TEXTO: {{textareatext}}</label>
+        <br>
+        <label for="textareatext" style="white-space: pre-line">TEXTO: {{textareatext}}</label>
+        <br>
+        <textarea v-model='textareatext' id="textareatext" rows="8" cols="80"></textarea>
+        <br><br>
+
+        <!-- CHECKBOX -->
+        <input v-model='inputcheckbox' type="checkbox" id="inputcheckbox">
+        <label for="inputcheckbox">CHECKBOX: {{inputcheckbox}}</label>
+        <br><br>
+
+        <!-- MULTIPLOS CHECKBOX -->
+        <h2>CHECKBOX: {{arraycheckbox}}</h2>
+        <input  type="checkbox" id="mcb1" v-model='arraycheckbox' value="opcao1">
+        <label for="mcb1">OPCAO 1 {{arraycheckbox['opcao1']}}</label>
+        <br>
+        <input  type="checkbox" id="mcb2" v-model='arraycheckbox' value="opcao2">
+        <label for="mcb2">OPCAO 2</label>
+        <br>
+
+        <!-- RADIO CHECKBOX -->
+        <h2>GENERO: {{sexo_radio}}</h2>
+        <input type="radio" id="masculino_radio" v-model='sexo_radio' value="M">
+        <label for="masculino_radio">Masculino</label>
+        <input type="radio" id="feminino_radio" v-model='sexo_radio' value="F">
+        <label for="feminino_radio">Feminino</label>
+        <br><br>
+
+        <!-- SELECT -->
+        <h2>SELECIONE UMA OPCAO: {{selecoption}}</h2>
+        <select v-model="selecoption">
+          <option disabled value="">Selecione uma opção</option>
+          <option value="2000">Ano 2000</option>
+          <option value="2001">Ano 2001</option>
+          <option value="2002">Ano 2002</option>
+        </select>
+        <br><br>
+
+
+
+      </form>
+
+    </div>
+
+    <script type="text/javascript">
+
+      var app = new Vue({ el: '#app',
+        data () {
+          return {
+            inputext:'',
+            inputextlazy:'',
+            inputnumber:null,
+            textareatext:'',
+            inputcheckbox:true,
+            arraycheckbox:[],
+            sexo_radio:null,
+            selecoption:null,
+          }
+        },
+        mounted () {},
+        computed: {},
+        filters:{},
+        watch:{}
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      * {
+          background-color: #333;
+          color: #fff;
+          font-size: 20px;
+          font-family: 'Roboto';
+          font-style: italic;
+        }
+    </style>
+    <title>VUE</title>
+    <!-- VUE VERSAO DE DESENVOLVIMENTO COM DEBUG -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- VUE VERSAO DE PRODUÇÂO -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  </head>
+  <body>
+
+    <div id="app">
+      <vcomp-cabecalho titulo="NovoTexto"></vcomp-cabecalho>
+    </div>
+
+    <script type="text/javascript">
+      Vue.component('vcomp-cabecalho', {props:['titulo'], template:'<h1>{{ titulo }}</h1>'});
+      var app = new Vue({ el: '#app',
+        data () {
+          return {}
+        },
+        mounted () {},
+        computed: {/*executa 1 vez*/},
+        methods: {/*executa mais de 100 veses*/},
+        filters:{}
+      });
+    </script>
+
+  </body>
+</html>

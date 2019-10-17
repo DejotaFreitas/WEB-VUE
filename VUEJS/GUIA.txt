@@ -1,0 +1,26 @@
+// instalar vue
+npm install vue
+
+// gerenciador template vue
+npm install -g @vue/cli
+
+// criar projeto
+vue create my-project
+vue ui
+
+//servidor
+npm run serve
+
+// criar site para produção
+npm run build
+
+//=========ESSENCIAL================
+//baixar todas as dependencias de um projeto baixado do git
+npm install
+
+//==========ONLINE=NETLIFY=================
+para o comando Build :
+yarn run build
+
+para o diretório Publish :
+dist

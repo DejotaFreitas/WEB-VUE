@@ -1,0 +1,123 @@
+.margin_top {
+  width: 100%;  height: 50px;
+
+  .barra_menu {
+    position: fixed;  width: 100%;  height: 50px;
+
+    background: rgba(78,95,193,1);
+    background: -moz-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,95,193,1)), color-stop(100%, rgba(78,95,193,1)));
+    background: -webkit-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+    background: -o-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+    background: -ms-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+    background: linear-gradient(to bottom, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5fc1', endColorstr='#4e5fc1', GradientType=0 );
+
+    .logo_menu {
+      line-height: 0px;  height: 50px;  cursor: pointer;
+      .logo_img {  height: 50px;  padding: 13px;  }
+    }
+
+    .itens_menu {
+      list-style:none;
+
+      .item_menu {
+        .botao_menu {
+          font-size: 14px;  color: #FFF;  font-family: "Poppins", sans-serif;  font-weight: 600;  text-transform: uppercase;  cursor: pointer;  }
+          .botao_menu:hover {  color: #000 !important; }
+          .botao_menu:active { cursor: progress;  color: #FFFFFF;  }
+          .router-link-active { color: #ffff00 !important;  }
+      }
+
+      .itens_submenu {
+        display: none;
+        .item_submenu {
+          .botao_menu {  font-size: 14px;  color: #FFF;  font-family: "Poppins", sans-serif;  font-weight: 600;  text-transform: uppercase;   }
+          .botao_menu:hover {  color: #000 !important; }
+          .botao_menu:active { cursor: progress;  color: #FFFFFF;  }
+          .router-link-active { color: #ffff00 !important;  }
+        }
+      }
+    }
+  }
+}
+// MOBILE
+@media (max-width: 960px) {
+  .margin_top {
+    .barra_menu {
+      .botao_menu_mobile {
+        float: right; height: 50px; width: 80px; z-index: 10; cursor: pointer;
+        &:active { cursor: progress; }
+      }
+
+      .itens_menu_show { left: 0% !important; }
+      .itens_menu {
+        position: absolute;  top: 50px; left: -100%;  min-width: 50%;  height: calc(100vh - 50px);
+        padding-bottom: 50px;  overflow-y: auto;
+        touch-action: manipulation; transition-delay: 0s;  transition-duration: 0.3s;  transition-property: all;
+
+        background: rgba(78,95,193,1);
+        background: -moz-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,95,193,1)), color-stop(100%, rgba(78,95,193,1)));
+        background: -webkit-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+        background: -o-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+        background: -ms-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+        background: linear-gradient(to bottom, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5fc1', endColorstr='#4e5fc1', GradientType=0 );
+
+        &::-webkit-scrollbar { width: 0px; }
+
+        .item_menu {
+          display: block;
+          .botao_menu {
+            display: block;  padding: 15px 40px 15px 20px;
+          }
+          .itens_submenu_show { display: block !important; }
+          .itens_submenu {
+            .item_submenu {
+              .botao_menu {
+                padding: 15px 20px 15px 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// DESKTOP
+@media (min-width: 961px) {
+  .margin_top {
+    .botao_menu_mobile { display: none;  }
+    .itens_menu {
+      float: right;  padding-right: 30px;
+
+      .item_menu {
+        float: left;  padding: 17px 0px;
+        .botao_menu { padding: 17px 14px;  }
+        .item_menu_plus:hover ~ .itens_submenu, .itens_submenu:hover { display: block; }
+        .itens_submenu_hidden { display: none !important; }
+        .itens_submenu {
+          position: absolute;  top: 50px;
+          background: rgba(78,95,193,1);
+          background: -moz-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+          background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,95,193,1)), color-stop(100%, rgba(78,95,193,1)));
+          background: -webkit-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+          background: -o-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+          background: -ms-linear-gradient(top, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+          background: linear-gradient(to bottom, rgba(78,95,193,1) 0%, rgba(78,95,193,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e5fc1', endColorstr='#4e5fc1', GradientType=0 );
+          .item_submenu {
+            display: block;  padding: 17px 0px;
+            .botao_menu {
+              font-size: 14px;  padding: 17px  30px;
+            }
+          }
+        }
+
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,232 @@
+@media (max-width: 720px) {
+  .margintop {
+
+    .itensMenu {
+
+      .menuMobile {
+        float: right;
+        padding: 21px 30px 22.5px 40px;
+        cursor: pointer;
+      }
+      .menuMobileCheckbox:checked + .MenuDireita  {
+        left: 0%;
+      }
+      .MenuDireita {
+        left: -100%;
+        position: absolute;
+        height: calc(100vh - 55px);
+        overflow-y: auto;
+        top: 45px;
+        margin-bottom: 20px;
+        background-color: #EEE;
+        padding: 0px 4px 48px 2px;
+
+        transition-delay: 0s;
+        transition-duration: 0.2s;
+        transition-property: all;
+
+        .buttonMenu {
+          padding: 14px 100px 14px 20px;
+          margin-top: 2px;
+          text-align: left;
+          border-radius: 6px;
+
+          background: rgba(125,173,254,1);
+          background: -moz-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+          background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(125,173,254,1)), color-stop(100%, rgba(137,139,255,1)));
+          background: -webkit-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+          background: -o-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+          background: -ms-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+          background: linear-gradient(to bottom, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dadfe', endColorstr='#898bff', GradientType=0 );
+        }
+
+        .buttonMenuPlus {
+          .menuMobileCheckbox:checked + .itensSubmenu {
+            display: block;
+          }
+          .itensSubmenu {
+            .buttonMenu {
+              margin-left: 20px;
+              padding-right: 20px;
+            }
+
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+//============================721px===============================
+
+@media (min-width: 721px) {
+
+  .margintop {
+
+    .itensMenu {
+
+      .menuMobile {
+        display: none;
+      }
+      //==START=MENU=///
+      .MenuDireita {
+        float: right;
+        margin-right: 40px;
+
+        .router-link-active, .router-link-active::after {
+          color: #FFFF00 !important;
+        }
+
+        .itemMenu {
+          float: left;
+
+          .buttonMenu {
+            float: left;
+            padding: 14px 10px;
+            color: #FFF;
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration-line: none;
+            text-decoration-style: solid;
+            text-transform: uppercase;
+            touch-action: manipulation;
+            transition-delay: 0s;
+            transition-duration: 0.3s;
+            transition-property: all;
+          }
+          .buttonMenu:active {
+            cursor: progress;
+            color: #FFFFFF;
+          }
+
+          .buttonMenu:hover {
+            color: #000;
+          }
+
+          .buttonMenuPlus {
+
+            .menuMobileCheckbox:checked + .itensSubmenu {
+              display: block;
+            }
+
+            .itensSubmenu {
+              display: none;
+              position: absolute;
+              top: 44px;
+              margin-left: -10px;
+              float: left;
+
+              background: rgba(141,144,255,1);
+              background: -moz-linear-gradient(top, rgba(141,144,255,1) 0%, rgba(113,183,253,1) 100%);
+              background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(141,144,255,1)), color-stop(100%, rgba(113,183,253,1)));
+              background: -webkit-linear-gradient(top, rgba(141,144,255,1) 0%, rgba(113,183,253,1) 100%);
+              background: -o-linear-gradient(top, rgba(141,144,255,1) 0%, rgba(113,183,253,1) 100%);
+              background: -ms-linear-gradient(top, rgba(141,144,255,1) 0%, rgba(113,183,253,1) 100%);
+              background: linear-gradient(to bottom, rgba(141,144,255,1) 0%, rgba(113,183,253,1) 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d90ff', endColorstr='#71b7fd', GradientType=0 );
+
+
+              .buttonMenu {
+                padding: 14px 20px;
+              }
+
+            }
+          }
+
+        }
+      }
+      //==END=MENU=///
+    }
+  }
+
+}
+
+//=========================GERAL==================================
+
+.margintop {
+  padding: 0px;
+  margin: 45px 0px 0px 0px;
+  border: none;
+
+
+  .itensMenu {
+    position: fixed;
+    height: 45px;
+    top: 0px;
+    width: 100%;
+
+    background: rgba(125,173,254,1);
+    background: -moz-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(125,173,254,1)), color-stop(100%, rgba(137,139,255,1)));
+    background: -webkit-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(125,173,254,1) 0%, rgba(137,139,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dadfe', endColorstr='#898bff', GradientType=0 );
+
+
+    .menuMobileCheckbox {
+      display: none;
+    }
+
+    .logoEsquerda {
+      float: left;
+      padding: 10px 10px 10px 30px;
+      height: 45px;
+      line-height: 0px;
+    }
+
+    .MenuDireita {
+      overflow-x: hidden;
+
+      .router-link-active, .router-link-active::after {
+        color: #ffff00 !important;
+      }
+
+      .itemMenu {
+
+
+        .buttonMenu {
+          height: 45px;
+          display: block;
+          color: #FFF;
+          font-family: "Poppins", sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          text-decoration-line: none;
+          text-decoration-style: solid;
+          text-transform: uppercase;
+          touch-action: manipulation;
+          transition-delay: 0s;
+          transition-duration: 0.3s;
+          transition-property: all;
+
+        }
+        .buttonMenu:active {
+          cursor: progress;
+          color: #FFFFFF;
+        }
+
+        .buttonMenu:hover {
+          color: #000;
+        }
+
+        .buttonMenuPlus {
+
+          .itensSubmenu {
+            display: none;
+          }
+
+
+
+        }
+
+      }
+
+    }
+  }
+}

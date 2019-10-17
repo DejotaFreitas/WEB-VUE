@@ -1,0 +1,25 @@
+// instalar vue
+npm install vue
+
+// gerenciador template vue
+npm install -g @vue/cli
+
+// criar projeto
+vue create .
+// criar projeto no diretorio atual
+vue create my-project
+// criar projeto usando interface web
+vue ui
+
+//servidor
+npm run serve
+
+// criar site para produção
+npm run build
+
+// INSTALAR SERVER E RODAR PROJETO EM PRODUÇÂO
+npm install -g serve
+serve -s dist
+
+// baixar todas as dependencias de um projeto baixado do git
+npm install
